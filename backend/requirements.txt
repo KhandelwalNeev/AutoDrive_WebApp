@@ -1,0 +1,12 @@
+flask
+flask-cors
+psycopg2-binary
+apscheduler
+requests
+python-dotenv
+gunicorn
+pandas
+joblib==1.5.3
+selenium
+webdriver-manager
+scikit-learn==1.6.1
