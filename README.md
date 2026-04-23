@@ -273,8 +273,10 @@ http://localhost:3000
 # 👨‍💻 Contributors
 
 * **Neev Khandelwal** — Machine Learning Model & Price Prediction System
-* **Akshat Saxena** — Backend Development (Flask + APIs + Database)
-* **Ahmad** — Frontend Development & UI/UX Design
+* **Akshat Saxena** — Full Stack Development (Flask + APIs + Database)
+* **Ahmad Hai Hassan Khan** — UI/UX Design
+* **Ronak Pandy** — Testing and Validation
+* **Lalit Chhatwani** — Data Collection and QA Support
 
 ---
 
