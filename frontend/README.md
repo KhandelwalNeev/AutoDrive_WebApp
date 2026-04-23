@@ -47,6 +47,7 @@ http://localhost:3000
 
 ---
 
-👨‍💻 Author
+# 👨‍💻 Author
+
 Ahmad Hai Hassan Khan
 
