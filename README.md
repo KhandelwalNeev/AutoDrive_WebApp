@@ -21,8 +21,8 @@ AutoDrive is a **full-stack web application** designed to simplify the used car 
 ## 🔹 1. Clone Repository
 
 ```bash
-git clone https://github.com/KhandelwalNeev/AutoDrive_WebApp
-cd project
+git clone https://github.com/KhandelwalNeev/AutoDrive_WebApp.git
+cd AutoDrive_WebApp
 ```
 
 ---
@@ -153,6 +153,57 @@ http://localhost:3000
 
 ---
 
+# 🤖 MODEL SETUP (Price Prediction - Streamlit)
+
+## 📌 Requirements
+
+* Python 3.10+
+
+---
+
+## 🔹 Step 1: Navigate to Model Folder
+
+```bash
+cd model
+```
+
+---
+
+## 🔹 Step 2: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🔹 Step 3: Run Streamlit App
+
+```bash
+streamlit run app.py
+```
+
+---
+
+Model runs at:
+
+```
+http://localhost:8501
+```
+
+---
+
+## 📌 Notes
+
+* Model is used for **price prediction and analytics**
+* Ensure model files exist:
+
+  * `model.pkl`
+  * `cars_dataframe.pkl`
+* First load may take a few seconds if model is downloaded dynamically
+
+---
+
 # ▶️ HOW TO RUN FULL PROJECT
 
 ### Step 1: Start Backend
@@ -167,6 +218,13 @@ python app.py
 npm run dev
 ```
 
+### Step 3: Run Model (Optional but Recommended)
+
+```bash
+cd model
+streamlit run app.py
+```
+
 ---
 
 # 🔗 IMPORTANT NOTES
@@ -174,12 +232,7 @@ npm run dev
 * Backend must be running before frontend
 * PostgreSQL must be running before backend
 * `.env` file must be configured correctly
-* ML model files must exist:
-
-```
-car_model.pkl
-cars_dataframe.pkl
-```
+* Model module must be running for prediction features
 
 ---
 
@@ -201,6 +254,7 @@ cars_dataframe.pkl
 ### ❌ Prediction not working
 
 ✔ Ensure model files exist
+✔ Ensure Streamlit app is running
 
 ---
 
