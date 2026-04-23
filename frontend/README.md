@@ -1,39 +1,48 @@
-# 🎨 AutoDrive Frontend
+# 🌐 FRONTEND SETUP (Next.js)
 
-This is the **frontend (UI)** of the AutoDrive platform, providing an interactive interface for users to explore, buy cars, and use prediction features.
+## 📌 Requirements
 
----
-
-## 🚀 Features
-
-* User Login & Signup
-* Browse Cars
-* Book Test Drive
-* News Section (India & Global)
-* Integration with backend APIs
-* Price Predictor
+* Node.js 18+
+* npm / yarn / pnpm
 
 ---
 
-## 🛠️ Tech Stack
-
-* NextJS
-* API Integration
-
----
-
-## ⚙️ Setup
+## 🔹 Step 1: Install Dependencies
 
 ```bash
 npm install
-npm start
 ```
 
 ---
 
-## 📌 Notes
+## 🔹 Step 2: Configure API URL
 
-* Connects to backend APIs for data
-* UI designed for smooth user experience
+Your frontend already uses:
+
+```
+http://127.0.0.1:10000
+```
+
+(Seen in files like:)
+
+* Cars page → 
+* News page → 
+* Prediction page → 
+
+👉 Make sure backend is running before frontend.
+
+---
+
+## 🔹 Step 3: Run Frontend
+
+```bash
+npm run dev
+```
+
+Frontend runs at:
+
+```
+http://localhost:3000
+```
 
 ---
