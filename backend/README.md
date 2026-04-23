@@ -15,7 +15,7 @@ This project is a **full-stack web application** for:
 ## 🔹 1. Clone Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/KhandelwalNeev/AutoDrive_WebApp
 cd project
 ```
 
